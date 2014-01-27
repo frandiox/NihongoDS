@@ -1,4 +1,4 @@
-NihongoDS is a game for NintendoDS for learning Japanese language.
-It is programmed in C++ and uses PAlib library.
+NihongoDS is a game for NintendoDS programmed in C++ using the homebrew library PAlib.
+You can practise Hirganada-Katakana and read information about Japanese language.
 
 Note: PAlib is outdated.
