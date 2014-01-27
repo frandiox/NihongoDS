@@ -1,0 +1,34 @@
+#pragma once
+
+#ifndef _%CLASS_H
+#define _%CLASS_H
+
+#include <PA9.h>
+#include "utiles.h"
+
+namespace NIHONGO {
+
+class %CLASS
+{
+public:
+	// Constructores 	
+	%CLASS();
+	%CLASS (const %CLASS& orig);
+
+	//Destructor
+	virtual ~%CLASS();
+
+	//Operador de asignacion
+	%CLASS& operator= (const %CLASS& orig);
+
+	//Funcion de depuracion
+	virtual char* print ();		//Devuelve una cadena de caracteres con el contenido del objeto. Esta cadena debe ser eliminada con delete [] manualmente.
+
+
+public:
+	//Miembros
+};
+
+}
+
+#endif

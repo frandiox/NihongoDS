@@ -1,0 +1,219 @@
+PAGfx Converter v0.10 -- by Mollusk -- resurrected by fincs -- forum.palib.info
+If you have suggestions, problems or anything please come to the PAlib forums
+
+Converting PAGfx.ini
+Transparent Color: Magenta
+
+44 sprites:
+  boton_atras: 256colors, 64x32, Pal: boton_atras_Pal, -> boton_atras_Sprite
+  boton_dict: 256colors, 64x32, Pal: boton_dict_Pal, -> boton_dict_Sprite
+  boton_escritura: 256colors, 64x32, Pal: boton_escritura_Pal, -> boton_escritura_Sprite
+  boton_fonetica: 256colors, 64x32, Pal: boton_fonetica_Pal, -> boton_fonetica_Sprite
+  boton_general: 256colors, 64x32, Pal: boton_general_Pal, -> boton_general_Sprite
+  boton_hiragana: 256colors, 64x32, Pal: boton_hiragana_Pal, -> boton_hiragana_Sprite
+  boton_kanjis: 256colors, 64x32, Pal: boton_kanjis_Pal, -> boton_kanjis_Sprite
+  boton_katakana: 256colors, 64x32, Pal: boton_katakana_Pal, -> boton_katakana_Sprite
+  boton_lecciones: 256colors, 64x32, Pal: boton_lecciones_Pal, -> boton_lecciones_Sprite
+  boton_lluvia: 256colors, 64x32, Pal: boton_lluvia_Pal, -> boton_lluvia_Sprite
+  boton_memvis: 256colors, 64x32, Pal: boton_memvis_Pal, -> boton_memvis_Sprite
+  boton_minijuegos: 256colors, 64x32, Pal: boton_minijuegos_Pal, -> boton_minijuegos_Sprite
+  boton_morf2: 256colors, 64x32, Pal: boton_morf2_Pal, -> boton_morf2_Sprite
+  boton_morfologia: 256colors, 64x32, Pal: boton_morfologia_Pal, -> boton_morfologia_Sprite
+  boton_puntuaciones: 256colors, 64x32, Pal: boton_puntuaciones_Pal, -> boton_puntuaciones_Sprite
+  boton_reunion: 256colors, 64x32, Pal: boton_reunion_Pal, -> boton_reunion_Sprite
+  boton_simbolos: 256colors, 64x32, Pal: boton_simbolos_Pal, -> boton_simbolos_Sprite
+  boton_sintaxis: 256colors, 64x32, Pal: boton_sintaxis_Pal, -> boton_sintaxis_Sprite
+  flecha: 256colors, 16x16, Pal: flecha_Pal, -> flecha_Sprite
+  hiragana_a: 256colors, 16x256, Pal: hiragana_a_Pal, -> hiragana_a_Sprite
+  hiragana_doble_a: 256colors, 32x192, Pal: hiragana_doble_a_Pal, -> hiragana_doble_a_Sprite
+  hiragana_doble_o: 256colors, 32x192, Pal: hiragana_doble_o_Pal, -> hiragana_doble_o_Sprite
+  hiragana_doble_u: 256colors, 32x192, Pal: hiragana_doble_u_Pal, -> hiragana_doble_u_Sprite
+  hiragana_e: 256colors, 16x256, Pal: hiragana_e_Pal, -> hiragana_e_Sprite
+  hiragana_i: 256colors, 16x256, Pal: hiragana_i_Pal, -> hiragana_i_Sprite
+  hiragana_o: 256colors, 16x256, Pal: hiragana_o_Pal, -> hiragana_o_Sprite
+  hiragana_u: 256colors, 16x256, Pal: hiragana_u_Pal, -> hiragana_u_Sprite
+  kanji_1: 256colors, 16x160, Pal: kanji_1_Pal, -> kanji_1_Sprite
+  kanji_2: 256colors, 16x160, Pal: kanji_2_Pal, -> kanji_2_Sprite
+  kanji_3: 256colors, 16x160, Pal: kanji_3_Pal, -> kanji_3_Sprite
+  kanji_4: 256colors, 16x160, Pal: kanji_4_Pal, -> kanji_4_Sprite
+  katakana_a: 256colors, 16x256, Pal: katakana_a_Pal, -> katakana_a_Sprite
+  katakana_doble_a: 256colors, 32x192, Pal: katakana_doble_a_Pal, -> katakana_doble_a_Sprite
+  katakana_doble_o: 256colors, 32x192, Pal: katakana_doble_o_Pal, -> katakana_doble_o_Sprite
+  katakana_doble_u: 256colors, 32x192, Pal: katakana_doble_u_Pal, -> katakana_doble_u_Sprite
+  katakana_e: 256colors, 16x256, Pal: katakana_e_Pal, -> katakana_e_Sprite
+  katakana_i: 256colors, 16x256, Pal: katakana_i_Pal, -> katakana_i_Sprite
+  katakana_o: 256colors, 16x256, Pal: katakana_o_Pal, -> katakana_o_Sprite
+  katakana_u: 256colors, 16x256, Pal: katakana_u_Pal, -> katakana_u_Sprite
+  boton_hiragana_doble: 256colors, 64x32, Pal: boton_hiragana_doble_Pal, -> boton_hiragana_doble_Sprite
+  boton_hiragana_simple: 256colors, 64x32, Pal: boton_hiragana_simple_Pal, -> boton_hiragana_simple_Sprite
+  boton_katakana_doble: 256colors, 64x32, Pal: boton_katakana_doble_Pal, -> boton_katakana_doble_Sprite
+  boton_katakana_simple: 256colors, 64x32, Pal: boton_katakana_simple_Pal, -> boton_katakana_simple_Sprite
+  boton_salir: 256colors, 64x32, Pal: boton_salir_Pal, -> boton_salir_Sprite
+
+58 backgrounds:
+  fondo_abajo : EasyBg, 256x192, Pal: fondo_abajo_Pal, 350 tiles -> fondo_abajo_Tiles and fondo_abajo_Map
+  logo_final : EasyBg, 256x192, Pal: logo_final_Pal, 279 tiles -> logo_final_Tiles and logo_final_Map
+  lecciones_0 : EasyBg, 256x192, Pal: lecciones_0_Pal, 601 tiles -> lecciones_0_Tiles and lecciones_0_Map
+  fonetica_1 : EasyBg, 256x192, Pal: fonetica_1_Pal, 376 tiles -> fonetica_1_Tiles and fonetica_1_Map
+  fonetica_2 : EasyBg, 256x192, Pal: fonetica_2_Pal, 486 tiles -> fonetica_2_Tiles and fonetica_2_Map
+  fonetica_3 : EasyBg, 256x192, Pal: fonetica_3_Pal, 487 tiles -> fonetica_3_Tiles and fonetica_3_Map
+  fonetica_4 : EasyBg, 256x192, Pal: fonetica_4_Pal, 144 tiles -> fonetica_4_Tiles and fonetica_4_Map
+  fonetica_5 : EasyBg, 256x192, Pal: fonetica_5_Pal, 517 tiles -> fonetica_5_Tiles and fonetica_5_Map
+  fonetica_6 : EasyBg, 256x192, Pal: fonetica_6_Pal, 456 tiles -> fonetica_6_Tiles and fonetica_6_Map
+  fonetica_7 : EasyBg, 256x192, Pal: fonetica_7_Pal, 275 tiles -> fonetica_7_Tiles and fonetica_7_Map
+  morfologia_1 : EasyBg, 256x192, Pal: morfologia_1_Pal, 411 tiles -> morfologia_1_Tiles and morfologia_1_Map
+  morfologia_2 : EasyBg, 256x192, Pal: morfologia_2_Pal, 361 tiles -> morfologia_2_Tiles and morfologia_2_Map
+  morfologia_3 : EasyBg, 256x192, Pal: morfologia_3_Pal, 279 tiles -> morfologia_3_Tiles and morfologia_3_Map
+  morfologia_4 : EasyBg, 256x192, Pal: morfologia_4_Pal, 338 tiles -> morfologia_4_Tiles and morfologia_4_Map
+  morfologia_5 : EasyBg, 256x192, Pal: morfologia_5_Pal, 356 tiles -> morfologia_5_Tiles and morfologia_5_Map
+  morfologia_6 : EasyBg, 256x192, Pal: morfologia_6_Pal, 370 tiles -> morfologia_6_Tiles and morfologia_6_Map
+  morfologia_7 : EasyBg, 256x192, Pal: morfologia_7_Pal, 419 tiles -> morfologia_7_Tiles and morfologia_7_Map
+  morfologia_8 : EasyBg, 256x192, Pal: morfologia_8_Pal, 512 tiles -> morfologia_8_Tiles and morfologia_8_Map
+  morfologia2_1 : EasyBg, 256x192, Pal: morfologia2_1_Pal, 386 tiles -> morfologia2_1_Tiles and morfologia2_1_Map
+  morfologia2_2 : EasyBg, 256x192, Pal: morfologia2_2_Pal, 454 tiles -> morfologia2_2_Tiles and morfologia2_2_Map
+  morfologia2_3 : EasyBg, 256x192, Pal: morfologia2_3_Pal, 441 tiles -> morfologia2_3_Tiles and morfologia2_3_Map
+  morfologia2_4 : EasyBg, 256x192, Pal: morfologia2_4_Pal, 400 tiles -> morfologia2_4_Tiles and morfologia2_4_Map
+  morfologia2_5 : EasyBg, 256x192, Pal: morfologia2_5_Pal, 278 tiles -> morfologia2_5_Tiles and morfologia2_5_Map
+  morfologia2_6 : EasyBg, 256x192, Pal: morfologia2_6_Pal, 382 tiles -> morfologia2_6_Tiles and morfologia2_6_Map
+  morfologia2_7 : EasyBg, 256x192, Pal: morfologia2_7_Pal, 295 tiles -> morfologia2_7_Tiles and morfologia2_7_Map
+  escritura_1 : EasyBg, 256x192, Pal: escritura_1_Pal, 465 tiles -> escritura_1_Tiles and escritura_1_Map
+  escritura_2 : EasyBg, 256x192, Pal: escritura_2_Pal, 494 tiles -> escritura_2_Tiles and escritura_2_Map
+  escritura_3 : EasyBg, 256x192, Pal: escritura_3_Pal, 413 tiles -> escritura_3_Tiles and escritura_3_Map
+  escritura_4 : EasyBg, 256x192, Pal: escritura_4_Pal, 382 tiles -> escritura_4_Tiles and escritura_4_Map
+  escritura_5 : EasyBg, 256x192, Pal: escritura_5_Pal, 377 tiles -> escritura_5_Tiles and escritura_5_Map
+  escritura_6 : EasyBg, 256x192, Pal: escritura_6_Pal, 419 tiles -> escritura_6_Tiles and escritura_6_Map
+  escritura_7 : EasyBg, 256x192, Pal: escritura_7_Pal, 389 tiles -> escritura_7_Tiles and escritura_7_Map
+  escritura_8 : EasyBg, 256x192, Pal: escritura_8_Pal, 382 tiles -> escritura_8_Tiles and escritura_8_Map
+  escritura_9 : EasyBg, 256x192, Pal: escritura_9_Pal, 364 tiles -> escritura_9_Tiles and escritura_9_Map
+  escritura_10 : EasyBg, 256x192, Pal: escritura_10_Pal, 371 tiles -> escritura_10_Tiles and escritura_10_Map
+  kanjis_1 : EasyBg, 256x192, Pal: kanjis_1_Pal, 502 tiles -> kanjis_1_Tiles and kanjis_1_Map
+  kanjis_2 : EasyBg, 256x192, Pal: kanjis_2_Pal, 253 tiles -> kanjis_2_Tiles and kanjis_2_Map
+  kanjis_3 : EasyBg, 256x192, Pal: kanjis_3_Pal, 295 tiles -> kanjis_3_Tiles and kanjis_3_Map
+  kanjis_4 : EasyBg, 256x192, Pal: kanjis_4_Pal, 266 tiles -> kanjis_4_Tiles and kanjis_4_Map
+  kanjis_5 : EasyBg, 256x192, Pal: kanjis_5_Pal, 292 tiles -> kanjis_5_Tiles and kanjis_5_Map
+  kanjis_6 : EasyBg, 256x192, Pal: kanjis_6_Pal, 434 tiles -> kanjis_6_Tiles and kanjis_6_Map
+  kanjis_7 : EasyBg, 256x192, Pal: kanjis_7_Pal, 418 tiles -> kanjis_7_Tiles and kanjis_7_Map
+  kanjis_8 : EasyBg, 256x192, Pal: kanjis_8_Pal, 398 tiles -> kanjis_8_Tiles and kanjis_8_Map
+  kanjis_9 : EasyBg, 256x192, Pal: kanjis_9_Pal, 470 tiles -> kanjis_9_Tiles and kanjis_9_Map
+  kanjis_10 : EasyBg, 256x192, Pal: kanjis_10_Pal, 265 tiles -> kanjis_10_Tiles and kanjis_10_Map
+  kanjis_11 : EasyBg, 256x192, Pal: kanjis_11_Pal, 275 tiles -> kanjis_11_Tiles and kanjis_11_Map
+  kanjis_12 : EasyBg, 256x192, Pal: kanjis_12_Pal, 299 tiles -> kanjis_12_Tiles and kanjis_12_Map
+  kanjis_13 : EasyBg, 256x192, Pal: kanjis_13_Pal, 279 tiles -> kanjis_13_Tiles and kanjis_13_Map
+  kanjis_14 : EasyBg, 256x192, Pal: kanjis_14_Pal, 345 tiles -> kanjis_14_Tiles and kanjis_14_Map
+  kanjis_15 : EasyBg, 256x192, Pal: kanjis_15_Pal, 352 tiles -> kanjis_15_Tiles and kanjis_15_Map
+  sintaxis_1 : EasyBg, 256x192, Pal: sintaxis_1_Pal, 371 tiles -> sintaxis_1_Tiles and sintaxis_1_Map
+  sintaxis_2 : EasyBg, 256x192, Pal: sintaxis_2_Pal, 326 tiles -> sintaxis_2_Tiles and sintaxis_2_Map
+  sintaxis_3 : EasyBg, 256x192, Pal: sintaxis_3_Pal, 390 tiles -> sintaxis_3_Tiles and sintaxis_3_Map
+  sintaxis_4 : EasyBg, 256x192, Pal: sintaxis_4_Pal, 372 tiles -> sintaxis_4_Tiles and sintaxis_4_Map
+  sintaxis_5 : EasyBg, 256x192, Pal: sintaxis_5_Pal, 343 tiles -> sintaxis_5_Tiles and sintaxis_5_Map
+  sintaxis_6 : EasyBg, 256x192, Pal: sintaxis_6_Pal, 337 tiles -> sintaxis_6_Tiles and sintaxis_6_Map
+  sintaxis_7 : EasyBg, 256x192, Pal: sintaxis_7_Pal, 265 tiles -> sintaxis_7_Tiles and sintaxis_7_Map
+  sintaxis_8 : EasyBg, 256x192, Pal: sintaxis_8_Pal, 318 tiles -> sintaxis_8_Tiles and sintaxis_8_Map
+
+102 palettes:
+  boton_atras_Pal, 48 colors
+  boton_dict_Pal, 48 colors
+  boton_escritura_Pal, 50 colors
+  boton_fonetica_Pal, 47 colors
+  boton_general_Pal, 50 colors
+  boton_hiragana_Pal, 50 colors
+  boton_kanjis_Pal, 49 colors
+  boton_katakana_Pal, 50 colors
+  boton_lecciones_Pal, 48 colors
+  boton_lluvia_Pal, 48 colors
+  boton_memvis_Pal, 49 colors
+  boton_minijuegos_Pal, 48 colors
+  boton_morf2_Pal, 50 colors
+  boton_morfologia_Pal, 50 colors
+  boton_puntuaciones_Pal, 50 colors
+  boton_reunion_Pal, 50 colors
+  boton_simbolos_Pal, 47 colors
+  boton_sintaxis_Pal, 49 colors
+  flecha_Pal, 2 colors
+  hiragana_a_Pal, 3 colors
+  hiragana_doble_a_Pal, 3 colors
+  hiragana_doble_o_Pal, 3 colors
+  hiragana_doble_u_Pal, 3 colors
+  hiragana_e_Pal, 5 colors
+  hiragana_i_Pal, 3 colors
+  hiragana_o_Pal, 3 colors
+  hiragana_u_Pal, 3 colors
+  kanji_1_Pal, 4 colors
+  kanji_2_Pal, 3 colors
+  kanji_3_Pal, 3 colors
+  kanji_4_Pal, 3 colors
+  katakana_a_Pal, 3 colors
+  katakana_doble_a_Pal, 3 colors
+  katakana_doble_o_Pal, 3 colors
+  katakana_doble_u_Pal, 3 colors
+  katakana_e_Pal, 3 colors
+  katakana_i_Pal, 3 colors
+  katakana_o_Pal, 3 colors
+  katakana_u_Pal, 3 colors
+  boton_hiragana_doble_Pal, 20 colors
+  boton_hiragana_simple_Pal, 20 colors
+  boton_katakana_doble_Pal, 20 colors
+  boton_katakana_simple_Pal, 20 colors
+  boton_salir_Pal, 20 colors
+  fondo_abajo_Pal, 24 colors
+  logo_final_Pal, 248 colors
+  lecciones_0_Pal, 58 colors
+  fonetica_1_Pal, 45 colors
+  fonetica_2_Pal, 252 colors
+  fonetica_3_Pal, 254 colors
+  fonetica_4_Pal, 70 colors
+  fonetica_5_Pal, 45 colors
+  fonetica_6_Pal, 44 colors
+  fonetica_7_Pal, 44 colors
+  morfologia_1_Pal, 46 colors
+  morfologia_2_Pal, 25 colors
+  morfologia_3_Pal, 164 colors
+  morfologia_4_Pal, 172 colors
+  morfologia_5_Pal, 225 colors
+  morfologia_6_Pal, 222 colors
+  morfologia_7_Pal, 224 colors
+  morfologia_8_Pal, 227 colors
+  morfologia2_1_Pal, 49 colors
+  morfologia2_2_Pal, 148 colors
+  morfologia2_3_Pal, 127 colors
+  morfologia2_4_Pal, 56 colors
+  morfologia2_5_Pal, 67 colors
+  morfologia2_6_Pal, 61 colors
+  morfologia2_7_Pal, 60 colors
+  escritura_1_Pal, 45 colors
+  escritura_2_Pal, 25 colors
+  escritura_3_Pal, 86 colors
+  escritura_4_Pal, 41 colors
+  escritura_5_Pal, 100 colors
+  escritura_6_Pal, 66 colors
+  escritura_7_Pal, 86 colors
+  escritura_8_Pal, 42 colors
+  escritura_9_Pal, 100 colors
+  escritura_10_Pal, 66 colors
+  kanjis_1_Pal, 48 colors
+  kanjis_2_Pal, 24 colors
+  kanjis_3_Pal, 25 colors
+  kanjis_4_Pal, 25 colors
+  kanjis_5_Pal, 25 colors
+  kanjis_6_Pal, 26 colors
+  kanjis_7_Pal, 28 colors
+  kanjis_8_Pal, 28 colors
+  kanjis_9_Pal, 47 colors
+  kanjis_10_Pal, 30 colors
+  kanjis_11_Pal, 30 colors
+  kanjis_12_Pal, 49 colors
+  kanjis_13_Pal, 49 colors
+  kanjis_14_Pal, 55 colors
+  kanjis_15_Pal, 49 colors
+  sintaxis_1_Pal, 45 colors
+  sintaxis_2_Pal, 25 colors
+  sintaxis_3_Pal, 25 colors
+  sintaxis_4_Pal, 25 colors
+  sintaxis_5_Pal, 25 colors
+  sintaxis_6_Pal, 25 colors
+  sintaxis_7_Pal, 25 colors
+  sintaxis_8_Pal, 25 colors
+
+Converted in 0 minutes and 1 second
+
+Finished!

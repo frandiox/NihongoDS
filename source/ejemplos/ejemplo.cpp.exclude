@@ -1,0 +1,17 @@
+
+
+using namespace NIHONGO;
+
+//Prototipos
+void initSystems(); //Inicializa la libreria PAlib
+void initObjects(); //Inicializa nuestras variables y objetos
+void loadContent(); //Carga texturas, sprites y demas contenido multimedia
+void loadObjects(); //Rellena nuestras variables y objetos
+void predraw(); //Dibuja en pantalla pero solo una vez al comienzo. No se repite en cada frame
+void draw(); //En cada frame dibuja la pantalla
+void update(); //En cada frame actualiza variables del juego
+void offSystems(); //Cierra las librerias y demas
+void destroyObjects(); //Destruye todos nuestros objetos, cierra archivos y demas.
+void* selector(u8 i);
+
+
